@@ -1,7 +1,7 @@
 class Course
-  attr_accessor :title, :schedule, :description
+  attr_accessor :title, :schedule, :description  #instance methods #title has a setter and a getter method for title #schedule has a setter and a getter method for a course's schedule #description has a setter and a getter method for a course's description
 
-  @@all = []
+  @@all = [] # returns an array of all the instances of the Course class
 
   def initialize
     @@all << self
